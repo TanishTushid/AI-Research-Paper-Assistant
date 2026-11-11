@@ -1,0 +1,16 @@
+langchain
+langchain-core
+langchain-community
+Flask>=3.0,<4.0
+pypdf
+pymupdf
+sentence-transformers
+faiss-cpu
+chromadb
+nltk
+llama-cpp-python
+-U huggingface_hub
+
+
+# hf download Qwen/Qwen2.5-1.5B-Instruct-GGUF qwen2.5-1.5b-instruct-q4_k_m.gguf --local-dir models/llm
+# pip install llama-cpp-python --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cpu    ### This library loads and runs GGUF models directly in Python.
